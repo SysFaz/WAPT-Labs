@@ -1,0 +1,9 @@
+# Use postgres/password user/password credentials
+version: '3.1'
+
+services:
+  juice:
+    image: bkimminich/juice-shop
+    ports:
+      - 9000:3000
+
